@@ -15,7 +15,6 @@ This project involves data analysis and visualization using publicly available e
 ## Project Structure
 dashboard/: A folder housing dashboard.py, responsible for generating dashboards to display data analysis results.
 data/: A directory that stores the raw data in CSV format.
-notebook.ipynb: A Jupyter Notebook used for conducting data analysis.
 notebook_ID.ipynb: The Indonesian version of notebook.ipynb.
 README.md: The documentation file for the project.
 
