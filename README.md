@@ -10,23 +10,23 @@
 - [Data Sources](#data-sources)
 
 ## Overview
-This project is a data analysis and visualization project focused on e-commerce public data. It includes code for data wrangling, exploratory data analysis (EDA), and a Streamlit dashboard for interactive data exploration. This project aims to analyze data on the E-Commerce Public Dataset.
+This project involves data analysis and visualization using publicly available e-commerce data. It features code for data wrangling, exploratory data analysis (EDA), and an interactive Streamlit dashboard to facilitate data exploration. The primary goal is to gain insights from the E-Commerce Public Dataset.
 
 ## Project Structure
-- `dashboard/`: This directory contains dashboard.py which is used to create dashboards of data analysis results.
-- `data/`: Directory containing the raw CSV data files.
-- `notebook.ipynb`: This file is used to perform data analysis.
-- `notebook_ID.ipynb`: notebook.ipynb in Indonesian.
-- `README.md`: This documentation file.
+dashboard/: A folder housing dashboard.py, responsible for generating dashboards to display data analysis results.
+data/: A directory that stores the raw data in CSV format.
+notebook.ipynb: A Jupyter Notebook used for conducting data analysis.
+notebook_ID.ipynb: The Indonesian version of notebook.ipynb.
+README.md: The documentation file for the project.
 
 ## Installation
 1. Clone this repository to your local machine:
 ```
-git clone https://github.com/mhdhfzz/data-analyst-dicoding.git
+git clone https://github.com/adambhuana/dicoding_data_analyst.git
 ```
 2. Go to the project directory
 ```
-cd data-analyst-dicoding
+cd dicoding_data_analyst
 ```
 3. Install the required Python packages by running:
 ```
@@ -34,14 +34,12 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-1. **Data Wrangling**: Data wrangling scripts are available in the `notebook.ipynb` file to prepare and clean the data.
-
-2. **Exploratory Data Analysis (EDA)**: Explore and analyze the data using the provided Python scripts. EDA insights can guide your understanding of e-commerce public data patterns.
-
-3. **Visualization**: Run the Streamlit dashboard for interactive data exploration:
+1. Data Preparation: Scripts for preparing and cleaning data are provided in the notebook.ipynb file.
+2. Exploratory Data Analysis (EDA): Utilize the Python scripts to explore and analyze the dataset, uncovering patterns and insights within the e-commerce public data.
+3. Interactive Visualization: Launch the Streamlit dashboard to explore the data interactively.
 
 ```
-cd data-analyst-dicoding/dashboard
+cd dicoding_data_analyst/dashboard
 streamlit run dashboard.py
 ```
 Access the dashboard in your web browser at `http://localhost:8501`.
