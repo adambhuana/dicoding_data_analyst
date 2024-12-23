@@ -11,12 +11,12 @@ sns.set(style='dark')
 
 # Dataset
 datetime_cols = ["order_approved_at", "order_delivered_carrier_date", "order_delivered_customer_date", "order_estimated_delivery_date", "order_purchase_timestamp", "shipping_limit_date"]
-df1 = pd.read_csv("df.csv")
+df1 = pd.read_csv("https://raw.githubusercontent.com/adambhuana/dicoding_data_analyst/refs/heads/main/dashboard/df.csv")
 df1.sort_values(by="order_approved_at", inplace=True)
 df1.reset_index(inplace=True)
 
 # Geolocation Dataset
-geolocation = pd.read_csv('geolocation.csv')
+geolocation = pd.read_csv('https://raw.githubusercontent.com/adambhuana/dicoding_data_analyst/refs/heads/main/dashboard/geolocation.csv')
 data = geolocation.drop_duplicates(subset='customer_unique_id')
 
 for col in datetime_cols:
